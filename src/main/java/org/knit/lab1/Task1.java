@@ -21,11 +21,12 @@ package org.knit.lab1;
 public class Task1 {
 
     public void execute() {
-        for (int i = 0; i < 10; i++){
-            for (int j = 1; j < 10; j++){
-                System.out.print(i * 10 + j + ",");
+        for (int i = 1; i < 101; i++){
+            System.out.print(i);
+            if (i % 10 == 0){
+                System.out.println();
             }
-            System.out.println((i + 1) * 10);
+            else System.out.print(',');
         }
     }
 }
