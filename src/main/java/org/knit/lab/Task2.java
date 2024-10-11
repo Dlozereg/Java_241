@@ -1,27 +1,31 @@
 package org.knit.lab;
 
-
-/***
- * Задача 2
- * Создайте класс SimpleUrl
- * глядя на URL ниже создайте как можно больше полей в классе SimpleUrl:
- * https://test.ru/test/1072/page.jsp?intParam=12345&doubleParam=3.14&textParameter=someText
- * добавьте геттеры и сеттеры для полей
- * Переопределите метод toString() для вывода информации о полях класса:
- * protocol = https
- * address = test.ru
- * domainZone = ru
- * siteName = test
- * webpageName = page.jsp
- * webPageExtention = jsp
- * ....
- * Распарсите данный URL на переменные, создайте экземпляр класса SimpleUrl и выведите на экран
- * Дополнительно
- * попробуйте с другими URL в сети, подумайте как можно сгруппировать значения.
- *
- */
 public class Task2 {
     public void execute() {
+        Container container = new Container(1000);
 
+        Shape sphere = new Sphere(5);
+        Shape cube = new Cube(3);
+        Shape cylinder = new Cylinder(100, 100);
+
+        container.add(sphere);
+        container.add(cube);
+
+        System.out.println(container.getVolume());
+        System.out.println(container.getShapes());
+
+        try{
+            container.add(cylinder);
+        }
+        catch (ArrayStoreException e){
+            System.out.println(e);
+        }
+
+        try {
+            Shape impossible = new Cube(0);
+        }
+        catch (NumberFormatException e){
+            System.out.println(e);
+        }
     }
 }
