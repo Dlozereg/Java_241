@@ -3,6 +3,7 @@ package org.knit.lab;
 import java.util.Arrays;
 
 public class Container {
+    private final double MAX_VOLUME = 100.0;
     private double volume;
     private final Object[] shapes;
     private int shapesCount = 0;

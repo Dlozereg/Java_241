@@ -1,12 +1,8 @@
 package org.knit.lab;
 
-import org.knit.lab.Calculator;
-
-import java.io.IOException;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Task1 {
+public class Task3 {
 
     public void execute() {
         Calculator calculator = new Calculator();

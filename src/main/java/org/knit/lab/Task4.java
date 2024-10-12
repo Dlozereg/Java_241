@@ -1,6 +1,6 @@
 package org.knit.lab;
 
-public class Task2 {
+public class Task4 {
     public void execute() {
         Container container = new Container(1000);
 
