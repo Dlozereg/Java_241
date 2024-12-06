@@ -1,4 +1,4 @@
-package org.knit.lab;
+package org.knit.lab2;
 
 
 public class File extends FileSystemComponent{

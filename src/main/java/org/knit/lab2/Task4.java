@@ -1,7 +1,7 @@
-package org.knit.lab;
+package org.knit.lab2;
 
 public class Task4 {
-    public void execute() {
+    public static void execute() {
         Container container = new Container(1000);
 
         Shape sphere = new Sphere(5);

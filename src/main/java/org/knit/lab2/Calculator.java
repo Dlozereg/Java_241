@@ -1,4 +1,4 @@
-package org.knit.lab;
+package org.knit.lab2;
 
 public class Calculator {
     public double add(double a, double b){

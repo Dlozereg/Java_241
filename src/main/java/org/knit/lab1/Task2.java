@@ -23,7 +23,7 @@ import java.util.HashMap;
  *
  */
 public class Task2 {
-    public void execute() {
+    public static void execute() {
         SimpleUrl url = new SimpleUrl("https://test.ru/test/1072/page.jsp?intParam=12345&doubleParam=3.14&textParameter=someText");
         System.out.println(url);
         url.setAddress("http");

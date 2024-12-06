@@ -1,7 +1,7 @@
-package org.knit.lab;
+package org.knit.lab2;
 
 public class Task5 {
-    public void execute(){
+    public static void execute(){
         // Создаем файлы
         FileSystemComponent file1 = new File("file1.txt", 100);
         FileSystemComponent file2 = new File("file2.txt", 200);

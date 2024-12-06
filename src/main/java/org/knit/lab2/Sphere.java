@@ -1,4 +1,4 @@
-package org.knit.lab;
+package org.knit.lab2;
 
 public class Sphere extends Shape{
     private double r;

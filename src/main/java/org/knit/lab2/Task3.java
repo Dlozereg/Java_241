@@ -1,10 +1,10 @@
-package org.knit.lab;
+package org.knit.lab2;
 
 import java.util.Scanner;
 
 public class Task3 {
 
-    public void execute() {
+    public static void execute() {
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in);
         String s;

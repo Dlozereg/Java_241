@@ -1,4 +1,4 @@
-package org.knit.lab;
+package org.knit.lab2;
 
 public class Folder extends FileSystemComponent{
     Object[] insides;
