@@ -1,5 +1,6 @@
 package org.knit.lab;
 
-public class Shape {
-
+abstract public class Shape {
+    double volume;
+    abstract double getVolume();
 }
