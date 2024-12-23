@@ -4,6 +4,7 @@ import org.knit.lab1.Task1;
 import org.knit.lab1.Task2;
 import org.knit.lab10.*;
 import org.knit.lab11.Task24;
+import org.knit.lab11.Task25;
 import org.knit.lab2.Task3;
 import org.knit.lab2.Task4;
 import org.knit.lab2.Task5;
@@ -26,7 +27,7 @@ import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) throws IllegalAccessException, IOException, ClassNotFoundException, SQLException {
-        Task24.execute();
+        Task25.execute();
 
     }
 }
