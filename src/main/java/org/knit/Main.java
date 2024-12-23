@@ -3,6 +3,7 @@ package org.knit;
 import org.knit.lab1.Task1;
 import org.knit.lab1.Task2;
 import org.knit.lab10.*;
+import org.knit.lab11.Task24;
 import org.knit.lab2.Task3;
 import org.knit.lab2.Task4;
 import org.knit.lab2.Task5;
@@ -21,10 +22,11 @@ import org.knit.lab9.Task17;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class Main {
-    public static void main(String[] args) throws IllegalAccessException, IOException, ClassNotFoundException {
-        Task23.execute();
+    public static void main(String[] args) throws IllegalAccessException, IOException, ClassNotFoundException, SQLException {
+        Task24.execute();
 
     }
 }
